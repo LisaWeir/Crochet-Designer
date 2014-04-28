@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LWViewController : UIViewController
+@interface LWViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
 @end

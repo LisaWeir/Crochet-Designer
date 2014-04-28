@@ -465,6 +465,7 @@
 				42755299190E898000FF1961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4275529A190E898000FF1961 /* Build configuration list for PBXNativeTarget "Crochet DesignerTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +474,7 @@
 				4275529C190E898000FF1961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
