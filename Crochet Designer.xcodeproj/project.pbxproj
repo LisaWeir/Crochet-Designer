@@ -21,6 +21,7 @@
 		4275528A190E898000FF1961 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4275526C190E898000FF1961 /* UIKit.framework */; };
 		42755292190E898000FF1961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42755290190E898000FF1961 /* InfoPlist.strings */; };
 		42755294190E898000FF1961 /* Crochet_DesignerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42755293190E898000FF1961 /* Crochet_DesignerTests.m */; };
+		4275529F190E8C7A00FF1961 /* LWCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4275529E190E8C7A00FF1961 /* LWCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4275528F190E898000FF1961 /* Crochet DesignerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Crochet DesignerTests-Info.plist"; sourceTree = "<group>"; };
 		42755291190E898000FF1961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42755293190E898000FF1961 /* Crochet_DesignerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crochet_DesignerTests.m; sourceTree = "<group>"; };
+		4275529D190E8C7A00FF1961 /* LWCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWCell.h; path = ../LWCell.h; sourceTree = "<group>"; };
+		4275529E190E8C7A00FF1961 /* LWCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LWCell.m; path = ../LWCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		4275526E190E898000FF1961 /* Crochet Designer */ = {
 			isa = PBXGroup;
 			children = (
+				4275529D190E8C7A00FF1961 /* LWCell.h */,
+				4275529E190E8C7A00FF1961 /* LWCell.m */,
 				42755277190E898000FF1961 /* LWAppDelegate.h */,
 				42755278190E898000FF1961 /* LWAppDelegate.m */,
 				4275527A190E898000FF1961 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 			files = (
 				42755275190E898000FF1961 /* main.m in Sources */,
 				42755279190E898000FF1961 /* LWAppDelegate.m in Sources */,
+				4275529F190E8C7A00FF1961 /* LWCell.m in Sources */,
 				4275527F190E898000FF1961 /* LWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
